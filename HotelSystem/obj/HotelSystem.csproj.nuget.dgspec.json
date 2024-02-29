@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\.NET\\HotelSystem\\HotelSystem\\HotelSystem.csproj": {}
+    "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\HotelSystem\\HotelSystem\\HotelSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\.NET\\HotelSystem\\HotelSystem\\HotelSystem.csproj": {
+    "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\HotelSystem\\HotelSystem\\HotelSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\.NET\\HotelSystem\\HotelSystem\\HotelSystem.csproj",
+        "projectUniqueName": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\HotelSystem\\HotelSystem\\HotelSystem.csproj",
         "projectName": "HotelSystem",
-        "projectPath": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\.NET\\HotelSystem\\HotelSystem\\HotelSystem.csproj",
+        "projectPath": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\HotelSystem\\HotelSystem\\HotelSystem.csproj",
         "packagesPath": "C:\\Users\\yelow\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\.NET\\HotelSystem\\HotelSystem\\obj\\",
+        "outputPath": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\HotelSystem\\HotelSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -51,6 +51,26 @@
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.2, )"
             }

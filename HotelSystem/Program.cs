@@ -1,9 +1,15 @@
+using HotelSystem.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
+
+builder.Services.AddEntityFrameworkSqlServer().AddDbContext<BankContext>(o => o.UseSqlServer(
+    "Server=ACERASPIRE;Database=Db_HotelSystem;User Id=sa;Password=2610#Gabi;Encrypt=False"));
 
 var app = builder.Build();
 
