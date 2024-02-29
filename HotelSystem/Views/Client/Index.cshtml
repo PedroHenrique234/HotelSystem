@@ -1,4 +1,5 @@
-﻿@{
+﻿@model List<ClientModel>
+@{
     ViewData["Title"] = "Client Page";
 }
 <h1 class="display-4">Página de controle de hóspedes</h1>
@@ -15,16 +16,22 @@
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>Pedro Henrique</td>
-                <td>502 B</td>
-                <td>29/02/2024</td>
-                <td>07/03/2024</td>
-                <td class="btn-group" role="group" aria-label="Basic example">
-                    <a type="button" class="btn btn-primary" asp-controller="Client" asp-action="Edit">Editar</a>
-                    <a type="button" class="btn btn-primary" asp-controller="Client" asp-action="Delet">Apagar</a>
-                </td>
-            </tr>
+            @if(Model != null && Model.Any()){
+                foreach(ClientModel item in Model)
+                {
+                    <tr>
+                        <td>@item.Name</td>
+                        <td>@item.Room</td>
+                        <td>@item.CheckIn.ToString("dd/MM/yyyy")</td>
+                        <td>@item.CheckOut.ToString("dd/MM/yyyy" + " ---- " + "14:00:00")</td>
+                        <td class="btn-group" role="group" aria-label="Basic example">
+                            <a type="button" class="btn btn-primary" asp-controller="Client" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
+                            <a type="button" class="btn btn-primary" asp-controller="Client" asp-action="Delet">Apagar</a>
+                        </td>
+                    </tr>
+                }
+            }
+
         </tbody>
     </table>
 </div>

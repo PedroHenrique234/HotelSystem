@@ -13,15 +13,17 @@ namespace HotelSystem.Controllers
         }
         public IActionResult Index()
         {
-            return View();
+            List<ClientModel> client = _clientRepository.FindAll();
+            return View(client);
         }
         public IActionResult Make()
         {
             return View();
         }
-        public IActionResult Edit()
+        public IActionResult Edit(int id)
         {
-            return View();
+            ClientModel client = _clientRepository.FindById(id);
+            return View(client);
         }
         public IActionResult Delet()
         {
@@ -31,6 +33,12 @@ namespace HotelSystem.Controllers
         public IActionResult Make(ClientModel client)
         {
             _clientRepository.AddClient(client);
+            return RedirectToAction("Index");
+        }
+        [HttpPost]
+        public IActionResult Update(ClientModel client)
+        {
+            _clientRepository.UpdateClient(client);
             return RedirectToAction("Index");
         }
     }
