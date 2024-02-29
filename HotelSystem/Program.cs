@@ -1,4 +1,5 @@
 using HotelSystem.Data;
+using HotelSystem.Repository;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,6 +11,8 @@ builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
 builder.Services.AddEntityFrameworkSqlServer().AddDbContext<BankContext>(o => o.UseSqlServer(
     "Server=ACERASPIRE;Database=Db_HotelSystem;User Id=sa;Password=2610#Gabi;Encrypt=False"));
+
+builder.Services.AddScoped<IClientRepository, ClientRepository>();
 
 var app = builder.Build();
 
