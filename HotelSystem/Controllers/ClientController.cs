@@ -25,9 +25,10 @@ namespace HotelSystem.Controllers
             ClientModel client = _clientRepository.FindById(id);
             return View(client);
         }
-        public IActionResult Delet()
+        public IActionResult Delet(int id)
         {
-            return View();
+            ClientModel client = _clientRepository.FindById(id);
+            return View(client);
         }
         [HttpPost]
         public IActionResult Make(ClientModel client)
@@ -39,6 +40,11 @@ namespace HotelSystem.Controllers
         public IActionResult Update(ClientModel client)
         {
             _clientRepository.UpdateClient(client);
+            return RedirectToAction("Index");
+        }
+        public IActionResult DeletClient(int id)
+        {
+            _clientRepository.DeletClient(id);
             return RedirectToAction("Index");
         }
     }

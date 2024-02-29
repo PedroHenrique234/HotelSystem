@@ -1,5 +1,6 @@
 ﻿using HotelSystem.Data;
 using HotelSystem.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace HotelSystem.Repository
 {
@@ -46,6 +47,15 @@ namespace HotelSystem.Repository
             _bankContext.Clients.Update(clientDb);
             _bankContext.SaveChanges();
             return clientDb;
+        }
+        public bool DeletClient(int id)
+        {
+            ClientModel clientDb = FindById(id);
+            if (clientDb == null) throw new Exception("Impossivel deletar este cliente");
+
+            _bankContext.Remove(clientDb);
+            _bankContext.SaveChanges();
+            return true;
         }
     }
 }

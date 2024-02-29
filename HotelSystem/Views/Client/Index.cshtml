@@ -26,7 +26,7 @@
                         <td>@item.CheckOut.ToString("dd/MM/yyyy" + " ---- " + "14:00:00")</td>
                         <td class="btn-group" role="group" aria-label="Basic example">
                             <a type="button" class="btn btn-primary" asp-controller="Client" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
-                            <a type="button" class="btn btn-primary" asp-controller="Client" asp-action="Delet">Apagar</a>
+                            <a type="button" class="btn btn-primary" asp-controller="Client" asp-action="Delet" asp-route-id="@item.Id">Apagar</a>
                         </td>
                     </tr>
                 }

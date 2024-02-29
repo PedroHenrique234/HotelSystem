@@ -1,10 +1,11 @@
-﻿@{
+﻿@model ClientModel
+@{
     ViewData["Title"] = "Delet client";
 }
 
 <div class="text-center">
-    <h1>Realmente deseja apagar este contato?</h1>
-    <button type="submit" class="btn btn-danger">Apagar</button>
+    <h1>Realmente deseja apagar o cliente @Model.Name?</h1>
+    <a role="button" class="btn btn-danger" asp-controller="Client" asp-action="DeletClient" asp-route-id="@Model.Id">Apagar</a>
     <a role="button" class="btn btn-secondary" asp-controller="Client" asp-action="Index">Voltar</a>
 </div>
 
