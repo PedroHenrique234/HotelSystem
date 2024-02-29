@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Client edit Page";
+}
+
+<div class="text-center">
+    <h1>Editar cadastro</h1>
+    <form id="makeConteiner">
+        <div class="form-group">
+            <label for="Name">Nome</label>
+            <input type="text" class="form-control" placeholder="Digite o nome do cliente">
+        </div>
+        <div class="form-group">
+            <label for="Apartment">Apartamento</label>
+            <input type="text" class="form-control" placeholder="Digite o quarto do cliente">
+        </div>
+        <div class="form-group">
+            <label for="Checkout">Checkout</label>
+            <input type="date" class="form-control" placeholder="Digite a data de saída do cliente">
+        </div>
+        <div class="form-group">
+            <label for="Phone">Telefone</label>
+            <input type="tel" onkeyup="handlePhone(event)" class="form-control" placeholder="Digite o telefone do cliente">
+        </div>
+        <div class="form-group">
+            <label for="Email">Email</label>
+            <input type="mail" class="form-control" placeholder="Digite o nome do cliente">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Criar</button>
+        <a role="button" class="btn btn-primary" asp-controller="Client" asp-action="Index">Voltar</a>
+    </form>
+</div>
+
+
+</div>
+
+

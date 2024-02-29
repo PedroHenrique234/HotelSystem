@@ -1,14 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\.NET\\ProjetoDeReceitas\\HotelSystem\\",
+  "WorkspaceRootPath": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\.NET\\HotelSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB3875FE-7E67-4033-9508-A99F8F267D5C}|HotelSystem\\HotelSystem.csproj|c:\\users\\yelow\\onedrive\\documentos\\c#\\.net\\projetodereceitas\\hotelsystem\\hotelsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB3875FE-7E67-4033-9508-A99F8F267D5C}|HotelSystem\\HotelSystem.csproj|solutionrelative:hotelsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB3875FE-7E67-4033-9508-A99F8F267D5C}|HotelSystem\\HotelSystem.csproj|c:\\users\\yelow\\onedrive\\documentos\\c#\\.net\\hotelsystem\\hotelsystem\\views\\client\\delet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB3875FE-7E67-4033-9508-A99F8F267D5C}|HotelSystem\\HotelSystem.csproj|solutionrelative:hotelsystem\\views\\client\\delet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB3875FE-7E67-4033-9508-A99F8F267D5C}|HotelSystem\\HotelSystem.csproj|c:\\users\\yelow\\onedrive\\documentos\\c#\\.net\\projetodereceitas\\hotelsystem\\hotelsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CB3875FE-7E67-4033-9508-A99F8F267D5C}|HotelSystem\\HotelSystem.csproj|solutionrelative:hotelsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CB3875FE-7E67-4033-9508-A99F8F267D5C}|HotelSystem\\HotelSystem.csproj|c:\\users\\yelow\\onedrive\\documentos\\c#\\.net\\hotelsystem\\hotelsystem\\views\\client\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB3875FE-7E67-4033-9508-A99F8F267D5C}|HotelSystem\\HotelSystem.csproj|solutionrelative:hotelsystem\\views\\client\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB3875FE-7E67-4033-9508-A99F8F267D5C}|HotelSystem\\HotelSystem.csproj|c:\\users\\yelow\\onedrive\\documentos\\c#\\.net\\hotelsystem\\hotelsystem\\views\\client\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB3875FE-7E67-4033-9508-A99F8F267D5C}|HotelSystem\\HotelSystem.csproj|solutionrelative:hotelsystem\\views\\client\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB3875FE-7E67-4033-9508-A99F8F267D5C}|HotelSystem\\HotelSystem.csproj|c:\\users\\yelow\\onedrive\\documentos\\c#\\.net\\hotelsystem\\hotelsystem\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CB3875FE-7E67-4033-9508-A99F8F267D5C}|HotelSystem\\HotelSystem.csproj|solutionrelative:hotelsystem\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB3875FE-7E67-4033-9508-A99F8F267D5C}|HotelSystem\\HotelSystem.csproj|c:\\users\\yelow\\onedrive\\documentos\\c#\\.net\\hotelsystem\\hotelsystem\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB3875FE-7E67-4033-9508-A99F8F267D5C}|HotelSystem\\HotelSystem.csproj|solutionrelative:hotelsystem\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,36 +30,75 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\.NET\\ProjetoDeReceitas\\HotelSystem\\HotelSystem\\Program.cs",
-              "RelativeDocumentMoniker": "HotelSystem\\Program.cs",
-              "ToolTip": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\.NET\\ProjetoDeReceitas\\HotelSystem\\HotelSystem\\Program.cs",
-              "RelativeToolTip": "HotelSystem\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-29T13:02:14.315Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\.NET\\ProjetoDeReceitas\\HotelSystem\\HotelSystem\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "HotelSystem\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\.NET\\ProjetoDeReceitas\\HotelSystem\\HotelSystem\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "HotelSystem\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABAAAAAAAAAAAAAAACEAAAArAAAA",
+              "DocumentIndex": 0,
+              "Title": "Delet.cshtml",
+              "DocumentMoniker": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\.NET\\HotelSystem\\HotelSystem\\Views\\Client\\Delet.cshtml",
+              "RelativeDocumentMoniker": "HotelSystem\\Views\\Client\\Delet.cshtml",
+              "ToolTip": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\.NET\\HotelSystem\\HotelSystem\\Views\\Client\\Delet.cshtml",
+              "RelativeToolTip": "HotelSystem\\Views\\Client\\Delet.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-29T13:00:20.635Z",
+              "WhenOpened": "2024-02-29T15:35:12.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\.NET\\HotelSystem\\HotelSystem\\Views\\Client\\Edit.cshtml",
+              "RelativeDocumentMoniker": "HotelSystem\\Views\\Client\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\.NET\\HotelSystem\\HotelSystem\\Views\\Client\\Edit.cshtml",
+              "RelativeToolTip": "HotelSystem\\Views\\Client\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-29T15:35:03.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClientController.cs",
+              "DocumentMoniker": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\.NET\\HotelSystem\\HotelSystem\\Controllers\\ClientController.cs",
+              "RelativeDocumentMoniker": "HotelSystem\\Controllers\\ClientController.cs",
+              "ToolTip": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\.NET\\HotelSystem\\HotelSystem\\Controllers\\ClientController.cs",
+              "RelativeToolTip": "HotelSystem\\Controllers\\ClientController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T15:34:34.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\.NET\\HotelSystem\\HotelSystem\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "HotelSystem\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\.NET\\HotelSystem\\HotelSystem\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "HotelSystem\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAACEAAAAAAAAAAAAkwDkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-02-29T15:27:51.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\.NET\\HotelSystem\\HotelSystem\\Views\\Client\\Index.cshtml",
+              "RelativeDocumentMoniker": "HotelSystem\\Views\\Client\\Index.cshtml",
+              "ToolTip": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\.NET\\HotelSystem\\HotelSystem\\Views\\Client\\Index.cshtml",
+              "RelativeToolTip": "HotelSystem\\Views\\Client\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAmwBcAAABlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-29T13:08:48.831Z",
               "EditorCaption": ""
             }
           ]
