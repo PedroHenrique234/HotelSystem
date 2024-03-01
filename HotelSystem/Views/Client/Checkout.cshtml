@@ -1,11 +1,10 @@
 ﻿@model List<ClientModel>
 @{
-    ViewData["Title"] = "Client Page";
+    ViewData["Title"] = "Checkout Page";
 }
-<h1 class="display-4">Página de controle de hóspedes</h1>
-<a id="AddButton" role="button" asp-controller="Client" asp-action="Make">Novo Hóspede</a>
-<div class="text-center" id="heroConteiner">
 
+<div class="text-center" id="heroConteiner">
+    <h1 class="display-4">Checkouts do dia</h1>
     <table class="table">
         <thead>
             <tr>
@@ -20,7 +19,7 @@
             {
                 foreach (ClientModel item in Model)
                 {
-                    @if (item.CheckOut > DateTime.Today)
+                    @if (item.CheckOut == DateTime.Today && item.ActiveClient == true)
                     {
                         <tr>
                             <td>@item.Name</td>
@@ -28,16 +27,12 @@
                             <td>@item.CheckIn.ToString("dd/MM/yyyy")</td>
                             <td>@item.CheckOut.ToString("dd/MM/yyyy")</td>
                             <td class="btn-group" role="group" aria-label="Basic example">
-                                <a type="button" class="btn btn-primary" asp-controller="Client" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
-                                <a type="button" class="btn btn-primary" asp-controller="Client" asp-action="Delet" asp-route-id="@item.Id">Apagar</a>
+                                <a type="button" class="btn btn-success" asp-controller="Client" asp-action="CheckoutClient" asp-route-id="@item.Id">Confirmar Checkout</a>
                             </td>
                         </tr>
                     }
                 }
             }
-
         </tbody>
     </table>
 </div>
-
-

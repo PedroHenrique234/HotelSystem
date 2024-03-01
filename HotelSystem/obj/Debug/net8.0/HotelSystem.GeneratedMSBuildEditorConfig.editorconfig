@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\yelow\OneDrive\Documentos\C#\Asp.Net\HotelSystem\HotelSystem
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/yelow/OneDrive/Documentos/C\#/Asp.Net/HotelSystem/HotelSystem/Views/Client/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XENoZWNrb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/yelow/OneDrive/Documentos/C\#/Asp.Net/HotelSystem/HotelSystem/Views/Client/Delet.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XERlbGV0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

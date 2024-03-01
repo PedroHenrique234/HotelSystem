@@ -20,6 +20,11 @@ namespace HotelSystem.Controllers
         {
             return View();
         }
+        public IActionResult Checkout()
+        {
+            List<ClientModel> client = _clientRepository.FindAll();
+            return View(client);
+        }
         public IActionResult Edit(int id)
         {
             ClientModel client = _clientRepository.FindById(id);
@@ -45,6 +50,11 @@ namespace HotelSystem.Controllers
         public IActionResult DeletClient(int id)
         {
             _clientRepository.DeletClient(id);
+            return RedirectToAction("Index");
+        }
+        public IActionResult CheckoutClient(ClientModel client)
+        {
+            _clientRepository.Checkout(client);
             return RedirectToAction("Index");
         }
     }

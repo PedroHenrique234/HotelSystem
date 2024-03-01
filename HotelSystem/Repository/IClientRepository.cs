@@ -9,5 +9,6 @@ namespace HotelSystem.Repository
         public ClientModel FindById(int id);
         public ClientModel UpdateClient(ClientModel client);
         public bool DeletClient(int id);
+        public ClientModel Checkout(ClientModel client);
     }
 }

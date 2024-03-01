@@ -13,10 +13,12 @@ namespace HotelSystem.Repository
         }
         public ClientModel AddClient(ClientModel client)
         {
+            bool clientActive = true;
             DateTime checkIn = DateTime.Now;
             checkIn.ToString("dd/mm/yyyy");
 
             client.CheckIn = checkIn;
+            client.ActiveClient = clientActive;
             _bankContext.Clients.Add(client);
             _bankContext.SaveChanges();
             return client;
@@ -41,8 +43,6 @@ namespace HotelSystem.Repository
             clientDb.Room = client.Room;
             clientDb.Email = client.Email;
             clientDb.CheckOut = client.CheckOut;
-            clientDb.CheckIn = client.CheckIn;
-            clientDb.CheckOut = client.CheckOut;
 
             _bankContext.Clients.Update(clientDb);
             _bankContext.SaveChanges();
@@ -56,6 +56,16 @@ namespace HotelSystem.Repository
             _bankContext.Remove(clientDb);
             _bankContext.SaveChanges();
             return true;
+        }
+
+        public ClientModel Checkout(ClientModel client)
+        {
+            ClientModel clientDb = FindById(client.Id);
+
+            clientDb.ActiveClient = false;
+            _bankContext.Clients.Update(clientDb);
+            _bankContext.SaveChanges();
+            return clientDb;
         }
     }
 }
